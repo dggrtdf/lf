@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اعدادية الحكم طارق احمد</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #e3f2fd;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2196f3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.1);
+            z-index: -1;
+            filter: blur(10px);
+        }
+        h1 {
+            font-size: 3.5em;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        section {
+            padding: 20px;
+            margin: 20px 10%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #2196f3;
+            border-bottom: 2px solid #2196f3;
+            padding-bottom: 10px;
+        }
+        .icon {
+            font-size: 1.5em;
+            margin-right: 10px;
+            color: #2196f3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2196f3;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .testimonials {
+            font-style: italic;
+            color: #555;
+            margin-top: 20px;
+            border-left: 4px solid #2196f3;
+            padding-left: 10px;
+        }
+        .featured {
+            background-color: #e1f5fe;
+            border: 2px dashed #64b5f6;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .featured h3 {
+            color: #64b5f6;
+        }
+        .contact-info {
+            margin-top: 20px;
+            color: #2196f3;
+        }
+        .grades {
+            background-color: #f1f8e9;
+            border: 2px solid #c5e1a5;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .grades table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .grades th, .grades td {
+            border: 1px solid #c5e1a5;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>اعداديه الحكم طارق احمد</h1>
+        <nav>
+            <a href="#about">نبذة عنا</a>
+            <a href="#courses">اوقات الدوام</a>
+            <a href="#grades">الداره</a>
+            <a href="#testimonials">آراء الطلاب</a>
+            <a href="#contact">اتصل بنا</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>نبذة عنا</h2>
+        <p>مرحباً بكم في <strong>اعداديه الحكم طارق احمد</strong>! هنا، نؤمن بأن كل طالب يمكن أن يكون نجم المستقبل. نحن نقدم بيئة تعليمية مميزة تهدف إلى تطوير مهاراتكم وتحقيق أحلامكم. هدفنا هو إعداد جيل مبدع وقادر على مواجهة تحديات الحياة.</p>
+        <p>نحن نعمل على تقديم تجربة تعليمية ممتعة ومفيدة، مليئة بالنشاطات الإبداعية والتفاعلية. انضموا إلينا واكتشفوا إمكانياتكم الحقيقية!</p>
+    </section>
+
+    <section id="courses">
+        <h2>اوقات الدوام في اعداديه الحكم طارق احمد </h2>
+        <ul>
+            <li><span class="icon">الاحد </span>ضهري ساعه 12</li>
+            <li><span class="icon">  الاثنين</span>ضهري ساعه12</li>
+            <li><span class="icon">الثلاثاء</span>ضهري ساعه12</li>
+            <li><span class="icon">الاربعاء</span>صباحي ساعه 8</li>
+            <li><span class="icon">الخميس</span>صباحي ساعه 8</li>
+        </ul>
+    </section>
+
+    <section id="grades" class="grades">
+        <h2>الصفوف</h2>
+        <table>
+            <tr>
+                <th> </th>
+                <th>عن</th>
+                <th>اداره</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>المدير</td>
+                <td>أستاذحسين جسام</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>معاون المدير</td>
+                <td>استاذ حيدر</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="testimonials">
+        <h2>آراء الطلاب</h2>
+        <p class="testimonials">"اعداديه الحكم طارق احمد  هي أحسن مكان للدراسة! المعلمين هنا يتعاملون معانا كأصدقاء ويشجعوننا على الإبداع." - <strong>ايمن</strong></p>
+        <p class="testimonials">"أحب أجواء المدرسة هنا! الدروس ممتعة والأصدقاء دائمًا متواجدين." - <strong>مصطفى</strong></p>
+    </section>
+
+    <section class="featured">
+        <h3>أحدث الأخبار</h3>
+        <p><span class="icon">📰</span> يسرنا أن نعلن عن إطلاق برنامج جديد لتطوير المهارات القيادية لطلابنا، ابتداءً من الأسبوع القادم!</p>
+        <p><span class="icon">🎊</span> لا تفوتوا حفل التخرج السنوي الذي سيقام في 15 يونيو، وكونوا جزءاً من هذه اللحظة الرائعة!</p>
+    </section>
+
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <p class="contact-info">للاستفسارات، راسلوناعبرصفحه الفيس بوك: <a href="mailto:https://www.facebook.com/p/%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D9%83%D9%85-%D8%B7%D8%A7%D8%B1%D9%82-%D8%A7%D8%AD%D9%85%D8%AF-100086462367705/"></a></p>
+        <p class="contact-info">تابعونا على وسائل التواصل الاجتماعي:</p>
+        <p class="contact-info">
+            <span class="icon">📱</span><a href="#">فيسبوك /اعداديه الحكم طارق احمد </a> |
+            
+
+    <footer>
+        <p>&copy; 2024 تم نشاء الموقع على يد المبرمج جعفر محمد القريشي>
+    </footer>
+</body>
+</html>
